@@ -142,7 +142,7 @@ const projectsData = [
       "PostgreSQL",
       "VanillaJs (Frontend)",
     ],
-    imageUrl: "/images/placeholder-project1.png", // Replace with actual image path
+    imageUrl: process.env.PUBLIC_URL + "/images/placeholder-project1.png",
     githubLink: "https://github.com/sofahoba/Fullstack-Verve-NewsAggregator",
   },
   {
@@ -151,7 +151,7 @@ const projectsData = [
     description:
       "Full-stack todo app with JWT authentication, allowing users to register, log in, and manage personal tasks. Backend built with NestJS, TypeORM, and PostgreSQL; frontend with vanilla JavaScript and RESTful API integration.",
     techStack: ["NestJS", "PostgreSQL", "TypeORM", "Vanilla JavaScript", "JWT"],
-    imageUrl: "/images/placeholder-project2.png", // Replace with actual image path
+    imageUrl: process.env.PUBLIC_URL + "/images/placeholder-project2.png",
     githubLink: "https://github.com/sofahoba/ToDo-List",
   },
   {
@@ -160,7 +160,7 @@ const projectsData = [
     description:
       "Web app backend for testers to report bugs and managers to assign them to developers for resolution, built with Spring Boot, JWT authentication, role-based access, and REST APIs.",
     techStack: ["Spring Boot", "React (Frontend)", "JWT", "REST APIs"],
-    imageUrl: "/images/placeholder-project3.png", // Replace with actual image path
+    imageUrl: process.env.PUBLIC_URL + "/images/placeholder-project3.png",
     githubLink: "https://github.com/sofahoba/BugAndResolution",
   },
   {
@@ -169,7 +169,7 @@ const projectsData = [
     description:
       "Backend app built with Spring Boot and MySQL to manage income and expenses, featuring RESTful CRUD APIs, DTO-based data handling, and financial statistics generation.",
     techStack: ["Spring Boot", "MySQL", "REST APIs", "DTOs"],
-    imageUrl: "/images/placeholder-project4.png", // Replace with actual image path
+    imageUrl: process.env.PUBLIC_URL + "/images/placeholder-project4.png",
     githubLink: "https://github.com/sofahoba/ExpenseTracker",
   },
 ];

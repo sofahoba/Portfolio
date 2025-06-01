@@ -68,7 +68,7 @@ const About = () => {
       viewport={{ once: true, amount: 0.3 }}
     >
       <ProfileImage
-        src="/images/Screenshot 2025-05-26 163656.png"
+        src={process.env.PUBLIC_URL + "/images/profile.jpg"}
         alt="Youssef Mohamed Ehab"
         variants={itemVariants}
       />
