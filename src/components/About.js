@@ -12,6 +12,8 @@ const AboutSection = styled(motion.section)`
   align-items: center;
 `;
 
+// Commenting out ProfileImage component definition
+/*
 // eslint-disable-next-line no-unused-vars
 const ProfileImage = styled(motion.img)`
   width: 200px;
@@ -22,6 +24,7 @@ const ProfileImage = styled(motion.img)`
   border: 5px solid ${({ theme }) => theme.primary};
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 `;
+*/
 
 const Title = styled(motion.h1)`
   font-size: 3rem;
@@ -67,11 +70,12 @@ const About = () => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.3 }}
     >
-      <ProfileImage
+      {/* Commenting out ProfileImage usage */}
+      {/* <ProfileImage
         src={process.env.PUBLIC_URL + "/images/profile.jpg"}
         alt="Youssef Mohamed Ehab"
         variants={itemVariants}
-      />
+      /> */}
       <Title variants={itemVariants}>Hi, I'm Youssef Mohamed Ehab</Title>
       <Subtitle variants={itemVariants}>
         Backend Developer | Spring Boot & NestJS Enthusiast
