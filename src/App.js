@@ -14,7 +14,7 @@ const AppContainer = styled.div`
 `;
 
 function App() {
-  const [theme, setTheme] = useState("light");
+  const [theme, setTheme] = useState("dark");
   const [mountedComponent, setMountedComponent] = useState(false);
 
   const themeToggler = () => {
