@@ -29,10 +29,10 @@ export const GlobalStyles = createGlobalStyle`
     /* Apply animated gradient based on theme */
     ${({ theme }) =>
       theme.body === lightTheme.body
-        ? `background-image: linear-gradient(-45deg, #e0eafc, #cfdef3, #e0eafc, #cfdef3);`
-        : `background-image: linear-gradient(-45deg, #0D1117, #161B22, #010409, #161B22);`}
+        ? `background-image: linear-gradient(-45deg, #e9eef3, #f4f7f9, #e9eef3, #f0f4f7);`
+        : `background-image: linear-gradient(-45deg, #0A0E13, #10141A, #010305, #10141A);`}
     background-size: 400% 400%;
-    animation: ${animatedGradient} 30s ease infinite;
+    animation: ${animatedGradient} 90s linear infinite;
   }
 
   *,
